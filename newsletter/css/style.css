@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700);
+
+.pimpos {
+	background: #222 url(../images/bg.jpg) no-repeat 0 0;
+	background-size: cover;
+	font-family: 'Roboto';
+	font-size: 18px;
+	line-height: 24px;
+	color: #666;
+}
+
+a {
+	color: #16a085;
+}
+
+a:hover, a:focus {
+	color: #1abc9c;
+	text-decoration: none;
+	-moz-transition: background-color, color, 0.3s;
+	-o-transition: background-color, color, 0.3s;
+	-webkit-transition: background-color, color, 0.3s;
+	transition: background-color, color, 0.3s;
+}
+
+.pimpos a:hover, .pimpos a:focus {
+	text-decoration: none;
+}
+
+.pimpos strong {
+	font-weight: 600;
+}
+
+.pimpos h1, .pimpos h2 {
+	font-family: 'bebas_neuebold';
+	color: #222;
+}
+
+.fadebg {
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.main {
+	margin-top: 30px;
+}
+
+.main h1 {
+	font-size: 100px;
+	line-height: 100px;
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+}
+
+.main p {
+	font-size: 23px;
+	line-height: 30px;
+	letter-spacing: -0.5px;
+}
+
+.code-btn {
+	font-family: 'bebas_neuebold';
+	color: #fff;
+	font-size: 60px;
+	line-height: 60px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 30px;
+	background-color: #16a085;
+	display: block;
+	margin-top: 30px;
+}
+
+.code-btn:hover, .code-btn:focus {
+	color: #fff;
+	background-color: #1abc9c;
+}
+
+.code-btn span {
+	font-size: 65px;
+}
+
+.share {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #ecf0f1;
+	background-color: rgba(255,255,255,0.6);
+	padding: 30px;
+	margin: 30px 0;
+}
+
+.share h2 {
+	font-size: 48px;
+	line-height: 48px;
+	margin-top: 0;
+}
+
+.share h3 {
+	font-size: 18px;
+	line-height: 24px;
+	color: #222;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.share p {
+	padding-bottom: 15px;
+}
+
+.share-btn {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: #16a085;
+	color: #fff;
+	font-size: 23px;
+	display: block;
+}
+
+.share-btn:hover, .share-btn:focus  {
+	color: #fff;
+	opacity: 0.9;
+}
+
+.facebook {
+	background-color: #3b5998;
+}
+
+.twitter {
+	background-color: #55acee;
+}
+
+.share-link {
+	padding: 15px;
+	background-color: #ecf0f1;
+	color: #16a085;
+	border: 0;
+	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+	.main h1 {
+		font-size: 90px;
+		line-height: 90px;
+	}
+	.code-btn {
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.code-btn span {
+		font-size: 55px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.main h1 {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.code-btn {
+		font-size: 48px;
+		line-height: 48px;
+	}
+	.code-btn span {
+		font-size: 53px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.main h1 {
+		font-size: 48px;
+		line-height: 48px;
+	}
+	.main p, .share-btn {
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0;
+	}
+	.code-btn, .share h2 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+	.code-btn span {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.pimpos, .main p {
+		font-size: 16px;
+	}
+	.code-btn, .share {
+		padding: 20px;
+	}
+	.share-btn {
+		padding: 10px;
+	}
+}
